@@ -2,9 +2,9 @@ import sys, sqlite3, os, fnmatch, re
 from markdown import markdown
 
 def main():
-	title = sys.argv[1]
+	title = sys.argv[3]
 	episode = sys.argv[2]
-	season = sys.argv[3]
+	season = sys.argv[1]
 	toonDir = os.getcwd() + "\\..\\cartoons\\" + title
 	allPanels = os.listdir(toonDir)
 	panels = len(allPanels)

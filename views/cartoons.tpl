@@ -41,5 +41,17 @@
 			% end
 		</ul>
 	</div>
+	%c.execute("SELECT title,slug FROM cartoon WHERE season = 3 ORDER BY episode ASC")
+	%cartoons = c.fetchall()
+	<div class="spacedPara">
+		<h2>Season 3</h2>
+		<ul>
+			%for cartoon in cartoons:
+				<li class="cartoonListItem">
+					<a href=cartoons/{{cartoon[1]}}>{{cartoon[0]}}</a>
+				</li>
+			% end
+		</ul>
+	</div>
 </div>
 %c.close()

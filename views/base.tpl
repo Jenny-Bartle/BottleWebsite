@@ -6,8 +6,8 @@
 <body>
 	<div id="header">
 		<div id="title">
-			<h1>Jenny's</h1>
-			<p>Practice website</p>
+			<h1>Jenny Bartle</h1>
+			<p>Being eaten by my socks</p>
 		</div>
 		<div id="nav">
 			<ul class="nav">

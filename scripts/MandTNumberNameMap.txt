@@ -5,12 +5,12 @@
 1,5,Tilly's Computer
 1,6,Mitsy's Party
 1,7,The Band
-1,8,Fran&ccedil;ais avec Mog et Tilly
+1,8,Fran&#231;ais avec Mog et Tilly
 1,9,Snow
 1,10,Stuck
 1,11,A Cunning Fox
 1,12,The Lie Detector
-1,13,The Mog &amp; Tilly Movie
+1,13,The Mog &#38; Tilly Movie
 1,14,Lost
 1,15,The Sleepover
 2,16,Tilly's Hobby
@@ -21,8 +21,8 @@
 2,21,Dissatisfied Herbal Tea - Whoop! Whoop!
 2,22,Mog and Tilly on Holiday
 2,23,Benny's Gone!
-2,24,The Mog &amp; Tilly Movie II
-2,25,Mog's Soir&eacute;e
+2,24,The Mog &#38; Tilly Movie II
+2,25,Mog's Soir&#233;e
 2,26,Squeak's Diary
 2,27,Tilly's Bad Day
 2,28,The Bats

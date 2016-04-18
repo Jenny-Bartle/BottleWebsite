@@ -12,7 +12,7 @@
 		<ul>
 			%for cartoon in cartoons:
 				<li class="cartoonListItem">
-					<a href=cartoons/{{cartoon[1]}}>{{cartoon[0]}}</a>
+					<a href=cartoons/{{cartoon[1]}}>{{!cartoon[0]}}</a>
 				</li>
 			% end
 		</ul>
@@ -24,7 +24,7 @@
 		<ul>
 			%for cartoon in cartoons:
 				<li class="cartoonListItem">
-					<a href=cartoons/{{cartoon[1]}}>{{cartoon[0]}}</a>
+					<a href=cartoons/{{cartoon[1]}}>{{!cartoon[0]}}</a>
 				</li>
 			% end
 		</ul>
@@ -36,7 +36,7 @@
 		<ul>
 			%for cartoon in cartoons:
 				<li class="cartoonListItem">
-					<a href=cartoons/{{cartoon[1]}}>{{cartoon[0]}}</a>
+					<a href=cartoons/{{cartoon[1]}}>{{!cartoon[0]}}</a>
 				</li>
 			% end
 		</ul>
@@ -48,7 +48,7 @@
 		<ul>
 			%for cartoon in cartoons:
 				<li class="cartoonListItem">
-					<a href=cartoons/{{cartoon[1]}}>{{cartoon[0]}}</a>
+					<a href=cartoons/{{cartoon[1]}}>{{!cartoon[0]}}</a>
 				</li>
 			% end
 		</ul>

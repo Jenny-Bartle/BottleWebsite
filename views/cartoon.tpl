@@ -9,6 +9,7 @@
 
 %for panel in range(0,cartoon[0]-1):
 	<img class="mandtpanel" src={{cartoon[1]}}/panel{{panel}}.gif>
+	<img class="mandtpanel" src={{cartoon[1]}}/panel{{panel}}.jpg>
 % end
 
 <div class=mandtpanel>

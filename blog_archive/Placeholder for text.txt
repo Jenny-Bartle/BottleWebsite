@@ -1,0 +1,5 @@
+Well this is the first post on my blog. It's probably only here so I can justify putting the tab on the navbar. If you come back soon, it's possible I will have written something of interest, like documentation of my travels, or a complaint about politics, or a description of the last place I had cake. 
+
+Until that time, however, I should take this opportunity to boast about how proud I am that I finally made a website. I have always been a bit scared of web development, but over the last year I've had exposure to it in my job a bit, so I had the confidence to write my own CSS and HTML. Meanwhile the back-end of this website uses the Bottle microframework, which I got on with really well, even with practically no Python experience. Its template engine made HTML files much easier to structure, and the fact that you only need one file in your project to use the framework was reassuringly straightforward. 
+
+So there you have it - my first blog post. I'm sure all future ones will be even more exciting. 

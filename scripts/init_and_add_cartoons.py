@@ -12,7 +12,7 @@ for line in initFile.readlines() :
 	toonDir = os.getcwd() + "\\..\\cartoons\\cartoon" + episode
 	allPanels = os.listdir(toonDir)
 	panels = len(allPanels)
-	slug = re.sub('[^\w]+', '-', title.lower())	
+	slug = re.sub('[^\w\r\n]+', '-', title.lower())	
 	db.execute('INSERT INTO cartoon (episode, title, slug, season, path, panels) VALUES (?, ?, ?, ?, ?, ?)', (episode, title, slug, season, "./cartoons/cartoon" + episode, panels))
 db.commit()
 db.close()

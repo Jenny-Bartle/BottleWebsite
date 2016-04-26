@@ -1,0 +1,27 @@
+import datetime, sqlite3, os
+import PyRSS2Gen
+#link = "http://jennybartle.com/feed/",
+
+db = sqlite3.connect('../blog.db')
+c = db.cursor()
+c.execute("SELECT title,slug,content,time FROM blog ORDER BY time DESC")
+data = c.fetchall()
+c.close()
+mainLink = "http://localhost:8080/posts/"
+rssItems = []
+for item in data:
+	rssItems.append(PyRSS2Gen.RSSItem(
+		title = item[0],
+		link = mainLink+item[1],
+		description = item[2],
+		guid = PyRSS2Gen.Guid(mainLink+item[1]),
+		pubDate = item[3]))
+
+rss = PyRSS2Gen.RSS2(
+    title = "Jenny Bartle rss",
+    link = "http://localhost:8080/feed/",
+    description = "Jenny Bartle rss",
+    lastBuildDate = datetime.datetime.now(),
+    items = rssItems)
+
+rss.write_xml(open("../feeds/posts.xml", "w"))

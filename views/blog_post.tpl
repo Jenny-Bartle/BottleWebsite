@@ -1,5 +1,6 @@
 % rebase('base.tpl')
 % import datetime
+<title>Jenny Bartle</title>
 % from datetime import datetime
 <div class="post" >
 	<h3>{{post[0]}}</h3>

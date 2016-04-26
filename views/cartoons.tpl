@@ -1,5 +1,6 @@
 %import os, re, sqlite3
 % rebase('base.tpl')
+<title>Mog and Tilly</title>
 <img class="mandtpanel" src="images/tillymog.gif">
 <div>
 	<p class="spacedPara"> Read <a href="/mandtintro">this</a> for an introduction</p>	

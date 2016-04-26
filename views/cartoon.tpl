@@ -4,12 +4,15 @@
 
 %db = sqlite3.connect('cartoon.db')
 %c = db.cursor()
-%c.execute("SELECT panels,slug,episode FROM cartoon WHERE slug = '%s'" % name)
+%c.execute("SELECT title,slug,episode FROM cartoon WHERE slug = '%s'" % name)
 %cartoon = c.fetchone()
+%episode = cartoon[2]
+%c.execute("SELECT panelId,panelName FROM cartoon_panel WHERE episode = '%i' ORDER BY panelId" % episode)
+%panels = c.fetchall()
 
-%for panel in range(0,cartoon[0]-1):
-	<img class="mandtpanel" src={{cartoon[1]}}/panel{{panel}}.gif>
-	<img class="mandtpanel" src={{cartoon[1]}}/panel{{panel}}.jpg>
+<title>{{cartoon[0]}}</title>
+%for panel in panels:
+	<img class="mandtpanel" src={{cartoon[1]}}/{{panel[1]}}>
 % end
 
 <div class=mandtpanel>

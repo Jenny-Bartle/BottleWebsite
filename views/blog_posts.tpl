@@ -1,7 +1,11 @@
 % rebase('base.tpl')
+<title>Jenny Bartle</title>
 % import datetime
 % from datetime import datetime
-<h2>Recent Posts</h2>
+<div>
+	<h2>Recent Posts</h2>
+	<a href=feed>RSS feed</a>
+</div>
  % for post in rows:
 	 <div class="post">
 		<h3>

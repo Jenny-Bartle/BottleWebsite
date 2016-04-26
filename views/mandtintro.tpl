@@ -1,4 +1,5 @@
 % rebase('base.tpl')
+<title>Mog and Tilly</title>
 <img class="mandtpanel" src="images/tillymog.gif">
 <IMG SRC="images/mog.jpg" WIDTH="170" HEIGHT="130" BORDER="0" ALIGN="left"></IMG>
 <P ALIGN="left">This is Mog. She is the leader of the group. Her lack of

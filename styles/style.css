@@ -40,11 +40,11 @@ p {
 }
 
 a:link {
-    color: #6d6993;
+    color: #6d7993;
 }
 
 a:hover {
-    color: #86757f
+    color: #86656f
 }
 
 a:visited {
@@ -112,27 +112,21 @@ a:visited {
 
 #nav {
 	position: relative;
-	display: inline-block;
     line-height: 80px;
     height: 80px;
 }
 
-.navpage {
+#nav li {
 	display: inline;
 }
 
-.navpage a, .navpage a:visited, .navpage a:link {
+#nav li a, #nav li a:visited, #nav li a:link {
 	text-decoration: none;
 	padding: 31px 10px 32px 10px;
 	height: 100%;
 	color: #373737;
 }
 
-#nav .selected, #nav .selected:visited {
-	background-color: #9099a2;
-	color: #e9e9f3;
-}
-
-.navpage a:hover {
+#nav li a:hover {
 	color: #6d7993;
 }

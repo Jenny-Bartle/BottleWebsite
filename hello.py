@@ -32,6 +32,10 @@ def posts(name):
 	c.close()
 	return template('blog_post', post=post)
 
+@route('/feed')
+def server_static():
+    return static_file('posts.xml', root='./feeds')
+
 @route('/cartoons')
 def cartoons():
 	return template('cartoons')
